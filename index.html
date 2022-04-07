@@ -1,0 +1,125 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Crowdriff Demo</title>
+        <meta name="description" content="Crowdriff Demo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+        </style>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header">
+            <div class="container">
+                <img src="img/crowdriff-logo.svg" alt="Crowdriff Logo">
+            </div>
+        </section>
+
+        <section class="hero">
+            <div class="container">
+                <h1><span>Everything</span> your destination needs to succeed this year!</h1>
+            </div>
+        </section>
+
+        <section class="main-content">
+            <div class="container two-col">
+                <div class="carousel">
+                    <div class="carousel-wrap">
+                        <div class="main">
+                            <img src="img/ebook-cover.png" alt="Nail Destination Marketing In 2022 Cover" />
+                        </div>
+                        <div class="preview">
+                            <img src="img/ebook-preview-1.png" alt="Nail Destination Marketing Table of Contents"/>
+                            <img src="img/ebook-preview-2.png" alt="Nail Destination Marketing Page 1"/>
+                            <img src="img/ebook-preview-3.png" alt="Nail Destination Marketing Page 2"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-wrap">
+                    <h2>Download this eBook for:</h2>
+
+                    <ul>
+                        <li>Lessons learned from 2021</li>
+                        <li>Navigating travel post-pandemic</li>
+                        <li>Ideas, insights and trends for a successful 2022</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-light" id="modalBtn">Download Now</a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="modal">
+            <div class="modal-content">
+                <i class="fas fa-times"></i>
+
+                <h2>Download this eBook for free</h2>
+
+                <p>*This form only accepts business email addresses</p>
+
+                <form>
+                    <div class="two-col">
+                        <div class="input">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" />
+                        </div>
+
+                        <div class="input">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" />
+                        </div>
+                    </div>
+
+                    <div class="two-col">
+                        <div class="input">
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" />
+                        </div>
+
+                        <div class="input">
+                            <label for="industry">Industry</label>
+                            <select name="industry">
+                                <option value="">- Please Select -</option>
+                                <option value="1">Association</option>
+                                <option value="2">Attraction</option>
+                                <option value="3">Destination Marketing organization</option>
+                                <option value="4">Digital Agency</option>
+                                <option value="5">Hotel</option>
+                                <option value="6">Tour Operator</option>
+                                <option value="7">Travel Agent</option>
+                                <option value="8">Other</option>
+                                <option value="9">Convention & Visitors Bureau</option>
+                                <option value="10">National or Regional Tourism Organization</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="one-col">
+                        <div class="input">
+                            <label for="companyName">Company Name</label>
+                            <input type="text" name="companyName" />
+                        </div>
+                    </div>
+
+                    <div class="one-col">
+                        <div class="input">
+                            <input type="checkbox" name="optIn">
+                            <label for="optIn">Send me the occasional email updates about new Crowdriff features, special promotions, and exclusive partnership opportunities.</label>
+                        </div>
+                    </div>
+
+                    <div class="submit">
+                        <a href="#" class="btn btn-dark" id="modal-btn">Download Now</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
